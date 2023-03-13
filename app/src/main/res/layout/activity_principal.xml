@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="19dp"
+    tools:layout_editor_absoluteY="29dp">
+
+    <Button
+        android:id="@+id/detalles"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:text="Detalles"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <Button
+        android:id="@+id/globos"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:text="Globos"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/peluches"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:text="Peluches"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/regalos"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:text="Regalos"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="480dp"
+        android:layout_height="316dp"
+        app:srcCompat="@drawable/grupo1"
+        tools:layout_editor_absoluteX="-35dp"
+        tools:layout_editor_absoluteY="-40dp" />
+
+    <Button
+        android:id="@+id/tazas"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:text="Tazas"
+        android:background="@color/rosa"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="201dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
